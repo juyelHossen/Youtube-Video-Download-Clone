@@ -31,9 +31,9 @@ export async function GET(req) {
     return NextResponse.json({
       title: info.videoDetails.title,
       thumbnail: info.videoDetails.thumbnails.pop()?.url,
-      downloadUrl: `/api/download/proxy?videoUrl=${encodeURIComponent(
-        format.url
-      )}`, // Direct download support
+      downloadUrl: `${
+        process.env.NEXT_PUBLIC_API
+      }/api/download/proxy?videoUrl=${encodeURIComponent(format.url)}`, // Direct download support
     });
   } catch (error) {
     console.error("Error:", error);

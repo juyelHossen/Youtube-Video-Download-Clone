@@ -15,7 +15,11 @@ export default function Home() {
     setVideoData(null);
     setLoading(true);
     try {
-      const res = await fetch(`/api/download?url=${encodeURIComponent(url)}`);
+      const res = await fetch(
+        `${process.env.NEXT_PUBLIC_API}/api/download?url=${encodeURIComponent(
+          url
+        )}`
+      );
       const data = await res.json();
 
       if (res.ok) {
