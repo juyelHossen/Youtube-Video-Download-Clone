@@ -14,14 +14,6 @@
       "static/chunks/main-app-3c13d0a959b7c638.js",
       "static/chunks/app/api/download/route-1566e28864605d89.js"
     ],
-    "/layout": [
-      "static/chunks/webpack-bb71489409570442.js",
-      "static/chunks/4bd1b696-692f10ba759dfb60.js",
-      "static/chunks/517-7ba66467149c8b06.js",
-      "static/chunks/main-app-3c13d0a959b7c638.js",
-      "static/css/29bbe203412c8819.css",
-      "static/chunks/app/layout-2739ace0219a7b28.js"
-    ],
     "/not-found": [
       "static/chunks/webpack-bb71489409570442.js",
       "static/chunks/4bd1b696-692f10ba759dfb60.js",
@@ -31,6 +23,21 @@
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/app/not-found-d6428f57cd2d8909.js"
     ],
+    "/_not-found/page": [
+      "static/chunks/webpack-bb71489409570442.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-7ba66467149c8b06.js",
+      "static/chunks/main-app-3c13d0a959b7c638.js",
+      "static/chunks/app/_not-found/page-4d2d6d3303041551.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-bb71489409570442.js",
+      "static/chunks/4bd1b696-692f10ba759dfb60.js",
+      "static/chunks/517-7ba66467149c8b06.js",
+      "static/chunks/main-app-3c13d0a959b7c638.js",
+      "static/css/29bbe203412c8819.css",
+      "static/chunks/app/layout-2739ace0219a7b28.js"
+    ],
     "/page": [
       "static/chunks/webpack-bb71489409570442.js",
       "static/chunks/4bd1b696-692f10ba759dfb60.js",
@@ -38,14 +45,7 @@
       "static/chunks/main-app-3c13d0a959b7c638.js",
       "static/chunks/173-c72f956e0e7ca46c.js",
       "static/chunks/565-7962b3a439c77cfa.js",
-      "static/chunks/app/page-57980e76d36f41a1.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack-bb71489409570442.js",
-      "static/chunks/4bd1b696-692f10ba759dfb60.js",
-      "static/chunks/517-7ba66467149c8b06.js",
-      "static/chunks/main-app-3c13d0a959b7c638.js",
-      "static/chunks/app/_not-found/page-4d2d6d3303041551.js"
+      "static/chunks/app/page-1f3269bbd4d3faa0.js"
     ]
   }
 }
